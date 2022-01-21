@@ -24,13 +24,13 @@ export default function Home() {
           Please subscribe to get more information about the new products
         </p>
 
-        <form className="mt-3" action="https://buyedemail.pcamino.workers.dev" method="post">
+        <form className="mt-3" action="https://buyedemail.pcamino.workers.dev" method="post" autoComplete="on">
           <input
             className="w-full p-2 border-2 border-gray-400 rounded-lg"
             type="email"
             placeholder="Your email"
           />
-          <button className="mt-3 w-full p-2 border-2 border-gray-400 rounded-lg bg-blue-500 text-white">
+          <button className="mt-3 w-full p-2 border-2 border-gray-400 rounded-lg bg-blue-500 text-white" type="submit">
             Subscribe
           </button>
         </form>
